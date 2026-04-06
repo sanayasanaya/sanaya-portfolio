@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanaya | Backend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">S.</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">SANAYA</div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting reveal">Hey there, I'm</p>
+        <h1 class="hero-name reveal">Sanaya</h1>
+        <h2 class="hero-role reveal">Backend Developer <span class="accent">·</span> Python Enthusiast</h2>
+        <p class="hero-desc reveal">
+          Building scalable backend systems with Django & REST APIs. 
+          Computer Science grad from ACEIT, Jaipur.
+        </p>
+        <div class="hero-buttons reveal">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/resume.pdf" download class="btn btn-outline">Download CV</a>
+        </div>
+        <div class="hero-socials reveal">
+          <a href="https://linkedin.com/in/sanaya-776568234" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/sanayasanaya" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:sanaya26sanaya@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-image reveal">
+        <div class="img-wrapper">
+          <img src="assets/images/profile.jpg" alt="Sanaya" onerror="this.src='https://ui-avatars.com/api/?name=Sanaya&background=7C3AED&color=fff&size=400&font-size=0.4&bold=true'" />
+          <div class="img-ring"></div>
+          <div class="img-dot dot1"></div>
+          <div class="img-dot dot2"></div>
+        </div>
+        <div class="floating-badge badge1">
+          <i class="fab fa-python"></i> Python Dev
+        </div>
+        <div class="floating-badge badge2">
+          <i class="fas fa-server"></i> Django
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-tag reveal">About Me</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">Crafting <em>backends</em> that power great products</h2>
+          <p>I'm a Computer Science graduate from ACEIT, Rajasthan Technical University, passionate about building robust backend systems. Currently working as a Python Developer Trainee at CyberFrat, where I develop and maintain production-grade APIs.</p>
+          <p>When I'm not coding, you'll find me on the volleyball court — I won the Arya Cup 2025 Tournament at my college!</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">APIs Built</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">4+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">2025</span>
+              <span class="stat-label">Graduate</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-edu reveal">
+          <h3>Education</h3>
+          <div class="edu-item">
+            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="edu-info">
+              <h4>B.Tech — Computer Science</h4>
+              <p>ACEIT, Rajasthan Technical University</p>
+              <span>2021 – 2025 · Jaipur</span>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-icon"><i class="fas fa-school"></i></div>
+            <div class="edu-info">
+              <h4>Senior Secondary (CBSE)</h4>
+              <p>St. Paul Public School, Teghra</p>
+              <span>2018 – 2020 · Bihar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-tag reveal">Experience</div>
+      <h2 class="section-title reveal">Where I've <em>worked</em></h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Python Developer Trainee</h3>
+              <span class="timeline-company">CyberFrat</span>
+            </div>
+            <span class="timeline-date"><i class="far fa-calendar"></i> Dec 2025 – Present</span>
+            <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan</span>
+            <ul class="timeline-points">
+              <li>Developed <strong>10+ backend APIs</strong> using Django Framework</li>
+              <li>Tested and managed APIs using <strong>Postman, PgAdmin, and Git</strong> ensuring reliable backend operations</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Django</span><span>Python</span><span>REST API</span><span>Postman</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Python Developer Intern</h3>
+              <span class="timeline-company">CyberFrat</span>
+            </div>
+            <span class="timeline-date"><i class="far fa-calendar"></i> Sept 2025 – Nov 2025</span>
+            <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan</span>
+            <ul class="timeline-points">
+              <li>Implemented <strong>4+ backend APIs</strong> using Django Framework</li>
+              <li>Validated API performance and <strong>database queries</strong> using Postman and PgAdmin</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Django</span><span>PostgreSQL</span><span>PgAdmin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-tag reveal">Projects</div>
+      <h2 class="section-title reveal">Things I've <em>built</em></h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-icon">
+            <i class="fas fa-shoe-prints"></i>
+          </div>
+          <h3>FootFolio</h3>
+          <p class="project-subtitle">Footwear E-Commerce Web App</p>
+          <p class="project-desc">
+            A full-featured Django e-commerce platform for browsing and purchasing footwear. Includes cart management, user authentication, and order handling.
+          </p>
+          <div class="project-features">
+            <span><i class="fas fa-check"></i> Product listing & detail pages</span>
+            <span><i class="fas fa-check"></i> Cart with quantity control</span>
+            <span><i class="fas fa-check"></i> User authentication</span>
+            <span><i class="fas fa-check"></i> Checkout functionality</span>
+          </div>
+          <div class="project-tech">
+            <span>Django</span><span>Python</span><span>HTML/CSS</span><span>SQLite</span>
+          </div>
+          <a href="https://github.com/sanayasanaya" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View Code
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-tag reveal">Skills</div>
+      <h2 class="section-title reveal">What I <em>work with</em></h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon"><i class="fas fa-code"></i></div>
+          <h3>Programming</h3>
+          <div class="skill-items">
+            <div class="skill-pill"><i class="fab fa-python"></i> Python</div>
+            <div class="skill-pill"><i class="fas fa-database"></i> SQL</div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon"><i class="fas fa-layer-group"></i></div>
+          <h3>Frameworks & Tools</h3>
+          <div class="skill-items">
+            <div class="skill-pill">Django</div>
+            <div class="skill-pill">Git</div>
+            <div class="skill-pill">Postman</div>
+            <div class="skill-pill">PgAdmin</div>
+            <div class="skill-pill">VS Code</div>
+            <div class="skill-pill">Jupyter</div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon"><i class="fas fa-chart-bar"></i></div>
+          <h3>Data & Analytics</h3>
+          <div class="skill-items">
+            <div class="skill-pill">Excel</div>
+            <div class="skill-pill">Power BI</div>
+            <div class="skill-pill">Pandas</div>
+            <div class="skill-pill">NumPy</div>
+            <div class="skill-pill">Matplotlib</div>
+            <div class="skill-pill">Seaborn</div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon"><i class="fas fa-certificate"></i></div>
+          <h3>Certifications</h3>
+          <div class="cert-list">
+            <div class="cert-item"><span class="cert-dot"></span>Python — Coursera</div>
+            <div class="cert-item"><span class="cert-dot"></span>Data Analysis — Deloitte</div>
+            <div class="cert-item"><span class="cert-dot"></span>C++ — Coursera</div>
+            <div class="cert-item"><span class="cert-dot"></span>RHCSA — Red Hat</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS SECTION -->
+  <section class="achievements section">
+    <div class="container">
+      <div class="section-tag reveal">Beyond Code</div>
+      <h2 class="section-title reveal">Achievements & <em>Activities</em></h2>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="ach-emoji">🏆</div>
+          <h4>Arya Cup 2025</h4>
+          <p>Winner — Volleyball Tournament, ACEIT</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-emoji">🥈</div>
+          <h4>Startup Expo 2024</h4>
+          <p>Runner-up — ACEIT</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-emoji">🎯</div>
+          <h4>Top Guns 2024</h4>
+          <p>Coordinator — ACEIT</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-emoji">💪</div>
+          <h4>Sphoorti Fest 2023</h4>
+          <p>Runner-up — Tug of War</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-tag reveal">Contact</div>
+      <h2 class="section-title reveal">Let's <em>connect</em></h2>
+      <p class="contact-sub reveal">I'm open to full-time roles, freelance projects, and exciting collaborations.</p>
+      <div class="contact-cards reveal">
+        <a href="mailto:sanaya26sanaya@gmail.com" class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <span>sanaya26sanaya@gmail.com</span>
+        </a>
+        <a href="tel:+917292893605" class="contact-card">
+          <i class="fas fa-phone"></i>
+          <span>+91 72928 93605</span>
+        </a>
+        <a href="https://linkedin.com/in/sanaya-776568234" target="_blank" class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <span>linkedin.com/in/sanaya-776568234</span>
+        </a>
+        <a href="https://github.com/sanayasanaya" target="_blank" class="contact-card">
+          <i class="fab fa-github"></i>
+          <span>github.com/sanayasanaya</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed & Built by <span>Sanaya</span> · 2025</p>
+    <p class="footer-sub">Made with ❤️ in Jaipur</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
